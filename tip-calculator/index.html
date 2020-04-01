@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tip Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Jura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
+    <h1>Hack your tips!</h1>
+    <p>Rather than try and figure out what kind of tip to leave using a percentage, just rate your experience!</p>
+    <div class="app">
+        <div class="calculator">
+            <header>
+                <h1>Tip Hacker</h1>
+                <form>
+                    <h3>What's the bill?</h3>
+                    <input id="bill" type="text" placeholder="Let's hack it!">
+                    <h3>How was this experience for you?
+                        <select id="rating">
+                            <option>Be real, how was it?</option>
+                            <option value="0.0">0% - I should have stayed home.</option>
+                            <option value="0.1">10% - It was better than cooking for myself.</option>
+                            <option value="0.15">15% - They should entertain other work options...</option>
+                            <option value="0.20">20% - Service was as expected, looking forward to returning.</option>
+                            <option value="0.25">25% - I can't wait to come back, and share this joint with more people!</option>
+                            <option value="0.3">30% - This was a moving experience for me... I'll just leave it at that, see you soon!</option>
+                            <option value="0.5">50% - I'm just here to make someone's day! Cheers!</option>
+                        </select>
+                    </h3>
+                    <button type="button">Hack that tip!</button>
+                    <h3>Ta Ta Ta TIP! :<span id="tip"></span></h3>
+                    <h3>Here's the damage... :<span id="damage"></span></h3>
+                </form>
+            </header>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
