@@ -2,13 +2,14 @@
     font-family: 'Jura', sans-serif;
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body {
     width: 100vw;
     height: 100vh;
     background-color: #01abaa;
+    padding: 10px;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -16,8 +17,8 @@ body {
 
 .app {
     position: relative;
-    width: 100%;
-    max-width: 400px;
+    width: 50%;
+    max-width: 600px;
     background: white;
     border-radius: 10px;
     padding: 10px;
